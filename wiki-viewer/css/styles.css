@@ -1,0 +1,19 @@
+body {
+  margin-top: 10px;
+}
+
+.subtitle {
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.search-container {
+  margin-top: 30px;
+}

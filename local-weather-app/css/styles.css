@@ -1,0 +1,59 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 40px;
+  background-image: url("../img/misty_forest.jpg");
+}
+
+.weather-container {
+  max-width: 460px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  color: #2b0645;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px #cccccc;
+}
+
+.weather-text-display {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.link {
+  color: #f9f9f9;
+}
+
+.footer {
+  color: #cacaca;
+}
+
+.link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.weather-toggle {
+  background-color: #009dcc;
+  box-shadow: 0px 2px #0066dc;
+}
+
+.weather-toggle:hover {
+  background-color: #009dcc;
+  outline: 0 !important;
+}
+
+.weather-toggle:active {
+  background-color: #009dcc;
+  /*box-shadow: 0px 1px #00f;*/
+  transform: translateY(1px); 
+  -moz-transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  box-shadow: none;
+}
+
+.weather-toggle:focus {
+  background-color: #009dc;
+  outline: 0 !important;
+  box-shadow: 0px 1px #00f;
+}

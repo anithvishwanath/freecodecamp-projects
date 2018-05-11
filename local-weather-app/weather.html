@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Local weather app</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script src="https://gitcdn.link/cdn/darkskyapp/skycons/master/skycons.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="weather-container text-center">
+			<h1>Local weather app</h1>
+			<!-- city/country -->
+			<p class="mt-3 weather-text-display">
+				<span id="city"></span>
+				<span id="country"></span>
+			</p>
+
+			<!-- temperature details -->
+			<p class="mb-3 lead weather-text-display">
+				<span id="temp"></span>
+				<span id="unit"></span>
+			</p>
+
+			<!-- Skycons -->
+			<canvas class="mb-2" id="weather-icon" width="75" height="75">
+			</canvas>
+
+			<!-- weather description -->
+			<p class="mb-1 weather-text-display">
+				<span id="description"></span>
+			</p>
+
+			<!-- C / F toggle button -->
+			<button class="btn btn-primary btn-lg weather-toggle mt-3" onclick="this.blur();">Toggle C / F</button>
+		</div>
+
+		<!--footer-->
+		<div class="footer container">
+			<p class="text-center">Written and coded by <a class="link" href="https://codepen.io/anithvishwanath" target="_blank">Anith Vishwanath</a></p>
+		</div>
+	</div>
+</body>
+</html>
