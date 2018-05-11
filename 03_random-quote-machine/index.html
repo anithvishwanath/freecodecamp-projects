@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random quote machine</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+  integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+  crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container quote-container">
+    <h2>Random quote machine</h2>
+    <blockquote id="quote-display" class="blockquote mb-3">
+      <p class="mb-0">We don't see things as they are, we see them as we are.</p>
+      <footer class="blockquote-footer">Ana&iuml;s Nin</footer>
+    </blockquote>
+    <div class="buttons">
+      <a class="twitter-btn float-left"
+      href="https://twitter.com/intent/tweet?text=We%20don't%20see%20things%20as%20they%20are,%20we%20see%20them%20as%20we%20are.%20-%20Anaïs Nin"
+      title="Tweet" target="_blank">
+        <i class="fab fa-twitter-square fa-2x"></i>
+      </a>
+      <button class="btn btn-primary quote-btn float-right" onclick=displayQuote()>New Quote</button>
+    </div>
+  </div>
+  <p class="cred">Designed and coded by <a href="https://github.com/anithvishwanath">Anith Vishwanath</a>.</p>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

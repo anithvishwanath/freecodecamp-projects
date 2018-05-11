@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 40px;
+  color: #384047;
+}
+
+h2 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.buttons {
+  margin-bottom: 10px;
+}
+
+.quote-btn {
+    align-self: flex-end;
+}
+
+.cred {
+  margin-top: 30px;
+  text-align: center;
+  color: #eee;
+}
+
+.cred a {
+  color: #fff;
+}
