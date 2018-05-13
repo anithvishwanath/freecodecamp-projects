@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitch TV Status Viewer</title>
+
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <section class="stream-info">
+      <h1>twitch.tv status viewer</h1>
+      <ul class="filter">
+        <li><button id="default" class="selected">All</button></li>
+        <li><button id="online">Online</button></li>
+        <li><button id="offline">Offline</button></li>
+      </ul>
+
+      <div id="streamer-info">
+
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>Designed and coded by <a href="https://github.com/anithvishwanath/" target="_blank">Anith Vishwanath</a></p>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery CDN -->
+  <script src="js/app.js"></script>
+</body>
+</html>

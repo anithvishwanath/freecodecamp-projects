@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 40px;
+  background-color: rgb(100, 65, 164);
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.stream-info {
+  background-color: #f4f8f7;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.stream-info h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+  font-size: 200%;
+  color: #384047;
+}
+
+ul.filter {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  background: #edeff0;
+  overflow: hidden;
+  border-radius: 6px;
+  padding: 0;
+}
+
+ul.filter li {
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  text-align: center;
+}
+
+ul.filter button {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+  color: #8d9aa5;
+}
+
+ul.filter button:hover {
+  background: #dfe3e4;
+}
+
+ul.filter button.selected {
+  background: #d1d6d9;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #f4f5f6;
+  font-weight: 200;
+  font-size: 1.05em;
+}
+
+.footer a {
+  color: #bdc4cb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+/* Stream Lists */
+#streams {
+  white-space: nowrap;
+  position: relative;
+  padding: 8px 0 8px 8px;
+  background-color: #edeff0;
+  border-radius: 6px;
+  color: #6441a4;
+  margin: 12px 0;
+}
+
+.live {
+  font-weight: 700 !important;
+  background-color: #c0dca7 !important;
+}
+
+.offline {
+  background-color: #cdcdcd !important;
+}
+
+.status {
+  display: none;
+}
+
+.stream-content {
+  position: absolute;
+  line-height: 13px;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.stream-content a {
+  color: #19171c;
+  text-decoration: none;
+}
+
+.stream-content a:hover {
+  color: #6441a4;
+}
+
+.stream-game {
+  font-size: 0.75em;
+  position: absolute;
+  margin-top: 17px;
+  font-weight: 600;
+}
+
+.stream-title {
+  font-size: 0.85em;
+  color: #6e6779;
+  vertical-align: text-top;
+  overflow: hidden;
+}
+
+.stream-logo {
+  width: 52px;
+  height: 52px;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  margin-right: 7px;
+}
